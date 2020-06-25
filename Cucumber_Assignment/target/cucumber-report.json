@@ -1,0 +1,66 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-25T05:20:10.993Z",
+        "line": 25,
+        "name": "select the INR currency from currency list",
+        "description": "",
+        "id": "php-login-with-and-without-header;select-the-inr-currency-from-currency-list",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdefintions.LoginStepDefinitions.user_is_on_home_page1(LoginStepDefinitions.java:182)\r\n\tat ✽.user is on home page(file:///C:/Saurabh/Automation/Selenium4_WorkSpace/Cucumber_Assignment/src/test/resources/features/PHP%20invalid%20login%20without%20header.feature:26)\r\n",
+              "duration": 157000000,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "user is on home page",
+            "match": {
+              "location": "stepdefintions.LoginStepDefinitions.user_is_on_home_page1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user click on the currency dropdown button",
+            "match": {
+              "location": "stepdefintions.LoginStepDefinitions.user_click_on_the_currency_dropdown_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user clicked on INR currency",
+            "match": {
+              "location": "stepdefintions.LoginStepDefinitions.user_clicked_on_INR_currency()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CurrencySelection"
+          }
+        ]
+      }
+    ],
+    "name": "PHP login with and without header",
+    "description": "",
+    "id": "php-login-with-and-without-header",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PHP%20invalid%20login%20without%20header.feature",
+    "tags": []
+  }
+]
